@@ -11,7 +11,7 @@ public class Dictionary {
 
     /**
      * Represents the getDictionary function
-     * @return
+     * @return String list with the dictionary content
      */
     public List<String> getDictionary() {
         return dictService.getDictionary();
@@ -19,8 +19,8 @@ public class Dictionary {
 
     /**
      * Represents the isEnglishWord function
-     * @param word
-     * @return
+     * @param word any given string
+     * @return boolean based if the word was found in the dictionary
      */
     public boolean isEnglishWord(String word) {
         return dictService.isEnglishWord(word);
@@ -28,8 +28,8 @@ public class Dictionary {
 
     /**
      * Find all possible words in a given string
-     * @param input
-     * @return
+     * @param input any given string
+     * @return String list with all the possible word combinations based on the given input
      */
     public List<String> findPossibleWords(String input) {
         ArrayList <String> matches = new ArrayList <String> ();
