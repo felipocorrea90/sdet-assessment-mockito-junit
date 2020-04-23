@@ -19,3 +19,6 @@ Instructions
 4. The output of your primary method should be a collection of Strings without duplicates.
 5. Create tests that exercise your class and methods.
 6. Please complete the instructions to the best of your ability and understanding and come prepared to discuss the design decisions you chose.
+
+**Assumptions**
+Since letters are part of the mocked dictionary, they will also be part of the list with the possible combinations of a given string in case the string has them. A true value will be returned if a letter alone is evaluated against isEnglishWord method .
