@@ -1,6 +1,6 @@
 # REI-SDET-Assessment
 
-*General Instructions*
+**General Instructions**
 
 1. Plan to spend about 2 hours completing this exercise.
 2. Please document any assumptions made.
@@ -8,7 +8,7 @@
 4. You do not need to connect to a real, online dictionary. The idea is to create a mock object to simulate this.
 5. Please send your solution as a zip file or send a link to your private GitHub repository, so that we can evaluate your work.
 
-*The Problem*
+**The Problem*
 
 Using Java, find all of the English words in a given String. For example, if you are given the word WORKING, you can easily find WORK and KING, but ROW, RING and KNOW are also in there. You have access to a utility class called Dictionary, which has one method, isEnglishWord(String word). Dictionary.isEnglishWord(String word) connects to a (mocked) online dictionary and returns Boolean true if the String passed to it is an English word, return false otherwise.
 
