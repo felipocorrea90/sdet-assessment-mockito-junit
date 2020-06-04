@@ -1,4 +1,4 @@
-# REI-SDET-Assessment
+# SDET Assessment
 
 **General Instructions**
 
